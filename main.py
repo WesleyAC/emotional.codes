@@ -36,7 +36,7 @@ def md_to_html(md):
 def main():
     base_path = os.path.dirname(os.path.realpath(__file__))
     post_template = open(os.path.join(base_path, "post.html")).read()
-    passthrough_files = ["index.html", "style.css"]
+    passthrough_files = ["index.html", "style.css", "CNAME"]
 
     posts = []
     for f in os.listdir(os.path.join(base_path, "posts/")):
