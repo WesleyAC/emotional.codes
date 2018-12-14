@@ -13,5 +13,5 @@ mv out/* .
 rmdir out
 git add .
 git commit -m "Automatic deploy"
-git push origin gh-pages
+git push --force origin gh-pages
 git checkout -
