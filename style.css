@@ -1,0 +1,32 @@
+html {
+	font-family: Lato;
+}
+
+hr {
+	color: #eee;
+	width: 90%;
+}
+
+.title {
+	font-family: monospace;
+	font-size: 250%;
+}
+
+.container {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+}
+
+.content {
+	font-size: 120%
+}
+
+.mono {
+	font-family: monospace;
+}
+
+.footer {
+	text-align: center;
+	font-family: monospace;
+}
