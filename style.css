@@ -15,12 +15,15 @@ hr {
 .container {
 	margin-left: auto;
 	margin-right: auto;
+	width: 50em;
 }
 
 @media only screen 
-and (min-device-width: 50em) {
+and (max-device-width: 51em) {
 	.container {
-		width: 50em;
+		margin-left: 2em;
+		margin-right: 2em;
+		width: auto;
 	}
 }
 
