@@ -32,6 +32,10 @@ and (min-device-width: 50em) {
 	font-size: 75%;
 }
 
+.footnote-ref {
+	font-size: 75%;
+}
+
 .mono {
 	font-family: monospace;
 }
