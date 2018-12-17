@@ -13,9 +13,15 @@ hr {
 }
 
 .container {
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen 
+and (min-device-width: 50em) {
+	.container {
+		width: 50em;
+	}
 }
 
 .content {
