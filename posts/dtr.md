@@ -37,8 +37,10 @@ I've found a few things helpful in these conversations:
 * It's useful to think a bit about your relationship with someone before having this conversation.
 * It's OK to not change your relationship as a result of this conversation, or to decide that you don't want a closer relationship.
 
+This can be a scary thing to do, but I think that it's worth it. Particularly, it's scary that you might care about a relationship more than the other person in it, or vice-versa. While this is scary, I find that it's better to explicitly discuss that, and come to an agreement about what you want your relationship to look like - it's almost always better to have explicitly discussed these dynamics, and talking about that can provide more closure than not having the conversation.
+
 ---
 
 I want to build relationships where everyone involved is able to explicitly talk about what they want to get out of it, and how we can work together to make each other happy. I've found that having defining the relationship discussions has been an effective way to do this.
 
-I think that the hardest part of these conversations is making them happen in the first place. The most effective way that I've found to do this is to share widely that you're interested in having DTR conversations, and let people who are interested approach you about it. So, if you want to more explicitly define the relationships that you have with your friends, feel free to share this post and let people know that you're open to having these conversations. It's emotional work, but it more than pays off in realizing what you value about your relationships and configuring them in a way that is maximally happy.
+I think that one of the hardest parts of these conversations is making them happen in the first place. The most effective way that I've found to do this is to share widely that you're interested in having defining the relationship conversations, and let people who are interested approach you about it. So, if you want to more explicitly define the relationships that you have with your friends, feel free to share this post and let people know that you're open to having these conversations. It's emotional work, but it more than pays off in realizing what you value about your relationships and configuring them in a way that is maximally happy.
