@@ -1,24 +1,19 @@
 #!/usr/bin/env python3
 import collections, os, shutil, subprocess
 
-# TODO
-# There are many bugs related to the ordering of replace() calls.
-# They should not have impact in most cases
-
-def strip_split(s, delim):
-    return [s.strip() for s in s.split(delim)]
-
 def parse_post(post_text):
     header_text, body = post_text.split("\n---\n", 1)
     headers = {}
     for line in header_text.split("\n"):
         if line.count(":") == 1:
-            key, val = strip_split(line, ":")
+            key, val = [s.strip() for s in line.split(":")]
             assert(key not in headers.keys())
             headers[key] = val
     return (headers, body)
 
 def make_html(template, title, body):
+    # This makes the assumption that title does not contain the string
+    # "{{content}}".
     template = template.replace("{{title}}", title)
     template = template.replace("{{content}}", body)
     return template
