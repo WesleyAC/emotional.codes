@@ -1,5 +1,6 @@
 html {
 	font-family: Lato;
+	font-size: 24px;
 }
 
 hr {
@@ -7,36 +8,28 @@ hr {
 	width: 90%;
 }
 
-.title {
-	font-family: monospace;
-	font-size: 250%;
-}
-
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	width: 50em;
+	width: 800px;
 }
 
 @media only screen 
-and (max-device-width: 51em) {
+and (max-device-width: 864px) {
 	.container {
-		margin-left: 2em;
-		margin-right: 2em;
+		margin-left: 32px;
+		margin-right: 32px;
 		width: auto;
+	}
+
+	html {
+		font-size: calc(12px + 4vw);
 	}
 }
 
-.content {
-	font-size: 120%
-}
-
-.footnotes {
-	font-size: 75%;
-}
-
-.footnote-ref {
-	font-size: 75%;
+.title {
+	font-family: monospace;
+	font-size: 48px;
 }
 
 .mono {
@@ -46,4 +39,5 @@ and (max-device-width: 51em) {
 .footer {
 	text-align: center;
 	font-family: monospace;
+	font-size: 18px;
 }
