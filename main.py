@@ -6,7 +6,7 @@ def parse_post(post_text):
     headers = {}
     for line in header_text.split("\n"):
         if line.count(":") == 1:
-            key, val = [s.strip() for s in line.split(":")]
+            key, val = [s.strip() for s in line.split(":", 1)]
             assert(key not in headers.keys())
             headers[key] = val
     return (headers, body)
