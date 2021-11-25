@@ -14,19 +14,6 @@ hr {
 	width: 800px;
 }
 
-@media only screen 
-and (max-device-width: 864px) {
-	.container {
-		margin-left: 32px;
-		margin-right: 32px;
-		width: auto;
-	}
-
-	html {
-		font-size: calc(12px + 4vw);
-	}
-}
-
 .title {
 	font-family: monospace;
 	font-size: 48px;
@@ -40,4 +27,16 @@ and (max-device-width: 864px) {
 	text-align: center;
 	font-family: monospace;
 	font-size: 18px;
+}
+
+@media (max-width: 864px) {
+	.container {
+		margin-left: 18px;
+		margin-right: 18px;
+		width: auto;
+	}
+
+	.title {
+		font-size: 32px;
+	}
 }
